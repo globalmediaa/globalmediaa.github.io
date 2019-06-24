@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>None</loc>
+     <loc>https://squidfunk.github.io/mkdocs-material/</loc>
      <lastmod>2019-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>None</loc>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/admonition/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/codehilite/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/footnotes/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/metadata/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/permalinks/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/extensions/pymdown/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/genel-tanimlar/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/stok-yonetimi/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/cari-yonetim/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/alis-satis-islemleri/</loc>
+     <lastmod>2019-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://squidfunk.github.io/mkdocs-material/firma-islemleri/</loc>
      <lastmod>2019-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
