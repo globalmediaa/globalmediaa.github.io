@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Dökümantasyon - Global ERP</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Global ERP</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Anasayfa</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Dökümantasyon</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#global-erp-dokumantasyonu">Global ERP Dökümantasyonu</a></li>
+            <li><a href="#1-genel-tanmlar">1. Genel Tanımlar</a></li>
+            <li><a href="#2-stok-yonetimi">2. Stok Yönetimi</a></li>
+            <li><a href="#3-cari-yonetimi">3. Cari Yönetimi</a></li>
+            <li><a href="#4-als-islemleri">4. Alış İşlemleri</a></li>
+            <li><a href="#5-sats-islemleri">5. Satış İşlemleri</a></li>
+            <li><a href="#global-erp-firma-islemleri">Global ERP Firma İşlemleri</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="global-erp-dokumantasyonu">Global ERP Dökümantasyonu</h1>
+<h2 id="1-genel-tanmlar">1. Genel Tanımlar</h2>
+<h3 id="_1"></h3>
+<ul>
+<li><strong>Döviz İşlemleri:</strong> Günlük Döviz İşlemleri için Merkez Bankasından Veri Çekilen Ekran; Stok Satış ve Alış Ekranlarında Kullanılacak</li>
+<li><strong>İçe Aktarma:</strong> Cari ve Stok Kartları, Uygulamanın İçine Aktarılabilecek</li>
+<li><strong>Dışa Aktarma:</strong> Cari ve Stok Kartları, Uygulamanın Dışına Aktarılabilecek</li>
+<li><strong>Özel Kod:</strong> Diğer Ekranlarda Kullanılabilecek Özel Kodlar Yazılabilecek</li>
+<li><strong>Grup Kod:</strong> Grup Çalışmalarına Özel Kullanılabilecek Grup Kodlar Yazılabilecek</li>
+<li><strong>Toplu Silme:</strong> Kullanılan Tanımlar Toplu Silme İşlemi ile Yok Edilecek</li>
+</ul>
+<hr />
+<h2 id="2-stok-yonetimi">2. Stok Yönetimi</h2>
+<h3 id="_2"></h3>
+<p><strong>Stok Yönetimi;</strong> Ürün Sayısının ve Kullanma Miktarının Kayıt Altında Tutularak Üretim Sürecinin Düzenli ve Sürekli Devam Etmesini Sağlar. Böylece Hammade veya Ürün Eksikliğinden Dolayı Üretim Sürecinin Durması veya Aksaması Önlenir.Ayrıca Malzeme ve Ürün Kaybı En Aza İndirildiği için Maliyet Muhasebesi Rahatlar.Gereksinimler Doğru Belirlenip, Yönetildiğinde Finansal Yönetim Etkinlik Kazanır.</p>
+<h3 id="a-tanmlar">a. Tanımlar</h3>
+<ul>
+<li><strong>Stok Kartı;</strong> Kendi Bünyesinde Bulunan Malzemelerin Girildiği Tanım Kartıdır</li>
+<li><strong>Birim Kartı;</strong> Stok Kartlarının Birimlerinin Tanıtıldığı Tanım Kartıdır</li>
+</ul>
+<h3 id="_3"></h3>
+<h3 id="b-islemler">b. İşlemler</h3>
+<ul>
+<li><strong>Stok Fişi İşlemleri;</strong> Stok Kartı ile Yapılan Devir, Fire, Sarf gibi İşlemlerin Genel Tanımıdır</li>
+</ul>
+<hr />
+<h2 id="3-cari-yonetimi">3. Cari Yönetimi</h2>
+<h3 id="_4"></h3>
+<p><strong>Cari Yönetim;</strong> Borç ve Alacaklarınızı Detaylı Bir Biçimde İzleyebilir, Şirket İçin Gerekli Raporlar Bu Bilgilere Dayanarak Hazırlanabilir ve Olası İhtilaf Durumlarında Daha Kolay Mutabakat Yapılabilir.Ayrıca Cari Hesap Sürekli Güncellenmelidir Çünkü Daha Sonra Oluşabilecek Sorunları Engeller.</p>
+<h3 id="a-tanmlar_1">a. Tanımlar</h3>
+<ul>
+<li><strong>Cari Kartı;</strong> Hizmet Alınan veya Verilen, Tedarikçi ya da Müşterilerin Tanımlandığı Tanım Kartlarıdır.</li>
+<li><strong>Kasa Kartı;</strong> Kasalarla İlgili Tanımların Yapılabilmesi ve İstenilen Döviz Türüne Göre Kasanın Bakiyesinin Kontrol Edilebilmesi İçin Kullanılan Tanım Kartıdır.</li>
+<li><strong>Banka Kartı;</strong> Banka, Bakiye ve Müşteri Bilgilerinin Tutulduğu Tanım Kartıdır.</li>
+</ul>
+<h3 id="b-hareketler">b. Hareketler</h3>
+<ul>
+<li><strong>Cari Hesap İşlemleri;</strong> Ticari İlişkilerde Bulunulan Müşteri ve Satıcıların Takibi İçin Kullanılan Cari Hesap Kartlarıdır.</li>
+<li><strong>Çek Senet İşlemleri;</strong> Portföy, İade gibi Çek Senet İşlemlerinin Yapıldığı Kartlardır.</li>
+<li><strong>Kasa İşlemleri;</strong> Kasadan-Cariye, Kasadan-Bankaya gibi İşlemlerin Yapıldığı Kartlardır.</li>
+<li><strong>Banka İşlemleri;</strong> Havale, EFT gibi Banka İşlemlerinin Yapıldığı Kartlardır.</li>
+</ul>
+<hr />
+<h2 id="4-als-islemleri">4. Alış İşlemleri</h2>
+<h3 id="_5"></h3>
+<h3 id="a-tanmlar_2">a. Tanımlar</h3>
+<ul>
+<li><strong>Hizmet Kartı;</strong> Yemek, Elektrik, Su gibi Hizmetlerin Tanımlandığı Tanım Kartıdır.</li>
+</ul>
+<h3 id="b-islemler_1">b. İşlemler</h3>
+<ul>
+<li><strong>Sipariş;</strong> Alınan Siparişlerin Tanımlandığı Karttır.</li>
+<li><strong>İrsaliye;</strong> Alınan İrsaliyerin Tanımlandığı Karttır.</li>
+<li><strong>Fatura;</strong> Alınan Faturaların Tanımlandığı Karttır.</li>
+</ul>
+<hr />
+<h2 id="5-sats-islemleri">5. Satış İşlemleri</h2>
+<h3 id="_6"></h3>
+<h3 id="a-tanmlar_3">a. Tanımlar</h3>
+<ul>
+<li><strong>Hizmet Kartı;</strong> Yemek, Elektrik, Su gibi Hizmetlerin Tanımlandığı Karttır.</li>
+</ul>
+<h3 id="b-islemler_2">b. İşlemler</h3>
+<ul>
+<li><strong>Sipariş;</strong> Satış İçin Verilen Siparişlerin Tanımlandığı Karttır.</li>
+<li><strong>İrsaliye;</strong> Satış İçin Verilen İrsaliyenin Tanımlandğı Karttır.</li>
+<li><strong>Fatura;</strong> Satış İçin Verilen Faturaların Tanımlandığı Karttır.</li>
+</ul>
+<hr />
+<h2 id="global-erp-firma-islemleri">Global ERP Firma İşlemleri</h2>
+<h3 id="-ambar-bolum-depo-islemleri">- Ambar, Bölüm, Depo İşlemleri  :</h3>
+<ul>
+<li>Gelen Hammade ve Yardımcı Malzemelerin Miktar ve Maliyetlerinin Kartlara Tanımlanmasıdır.Ayrıca Stok Bilgilerinin Tutulması ve Genel Sayımının Yapılarak Kayıt Altına Alınmasını Sağlar.</li>
+</ul>
+<h3 id="-il-ilce-islemleri">- İl İlçe İşlemleri :</h3>
+<ul>
+<li>Uygulama İçinde Kullanılacak Türkiye Sınırları İçerisinden Tüm İl ve İlçelerin Muhasebe Kayıtlarının Tutulduğu Tanım Kartıdır.</li>
+</ul>
+<h3 id="-firma-islemleri">- Firma İşlemleri :</h3>
+<ul>
+<li>Bu Uygulamayı Kullanacak Firma Bilgilerinin Yani Çalışan, Müşteri veya Alacaklı Kayıtlarının Tutulduğu Tanım Kartıdır.Ayrıca Firma Bilgileri de Kayıt Altındadır.</li>
+</ul>
+<h3 id="-kullanc-islemleri">- Kullanıcı İşlemleri :</h3>
+<ul>
+<li>Uygulamayı Kullanacak Kullanıcıların Tanımlanıp Yetkilendirme Yapıldığı Karttır.</li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
